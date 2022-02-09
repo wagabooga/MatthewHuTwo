@@ -4,8 +4,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home/Home';
 
-import Manatee from './components/Manatee/Manatee';
-import Narwhal from './components/Narwhal/Narwhal';
+import Manatee from './components/NavWedge/NavWedge';
+import Narwhal from './components/ProjectList/Narwhal';
 import Whale from './components/Whale/Whale';
 
 function App() {

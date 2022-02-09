@@ -1,13 +1,12 @@
 import React from 'react'
 
-function ProjectObject( {projectId, client, type, year, project} ) {
+function ProjectObject( {client, type, year, project} ) {
   return (
-    <div >
-      <p> {projectId} </p>
-      <p> {client} </p>
-      <p> {type} </p>
-      <p> {year} </p>
-      <p> {project} </p>
+    <div>
+      <ul>{client}</ul>
+      <ul>{type}</ul>
+      <ul>{year}</ul>
+      <ul>{project}</ul>
     </div>
   )
 }

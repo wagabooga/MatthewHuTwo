@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectList from './ProjectList/ProjectList'
+import TitleDivBox from './TitleDivBox/TitleDivBox'
 
 /*
 See homepage design
@@ -10,21 +11,13 @@ TYPE : Web, Design
 YEAR: (color Coord WIP / completed)
 PROJECT: Url or something
 */
+
 function Home() {
   return (
-  <>
-    <div>  {/* Title Div Box */}
-     <h1> Select Works </h1>
-     <p> by Matthew Who? </p>
-     <p> 20XX - 20XX </p>
-     <p> -----------------------------------------</p>
-    </div>
-    <div> {/* Aesthetic div?? */} </div>
-
-    <div> {/* ProjectList component */} 
+  <div>
+    <TitleDivBox />
     <ProjectList />
-    </div>
-  </>
+  </div>
    
     
   )

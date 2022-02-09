@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectObject from './ProjectObject';
+import ProjectObjectHeader from './ProjectObjectHeader';
 
 
 let myOwnData = [
@@ -16,22 +17,22 @@ let myOwnData = [
   {
   "projectId" : 2,
   "client" : "Personal",
-  "type" : ["Web", "Design", "developement", "Creative Direction"],
+  "type" : ["Web Design & Development", "design", "Developement", "Creative Direction"],
   "year" : 2019,
   "project" : "matthewhu.com",
   },
 
   // Spotter
   {
-    "projectId" : 3,
+  "projectId" : 3,
   "client" : "Personal",
-  "type" : ["Web", "Design", "developement", "Creative Direction"],
+  "type" : ["Web Design & Development", "design", "Developement", "Creative Direction"],
   "year" : 2019,
   "project" : "matthewhu.lhjklhjkhjkhkjhjkhjkhjkhjkhjkhjkhjkhjkhjkcom",
   },
 ]
 
-function ProjectList(props) {
+function ProjectList() {
 
 
 const projectListElements = myOwnData.map((projectObject) => {
@@ -49,6 +50,7 @@ const projectListElements = myOwnData.map((projectObject) => {
 
 return (
   <div>
+    <ProjectObjectHeader />
     {projectListElements}
   </div>
   );

@@ -1,31 +1,57 @@
 import React from 'react'
+import ProjectObject from './ProjectObject';
 
 
-let data = [
-  { }
+let myOwnData = [
+  // Portfolio 1.0
+  {
+  "projectId" : 1,
+  "client" : "Personal",
+  "type" : ["Web Design & Development", "design", "Developement", "Creative Direction"],
+  "year" : 2019,
+  "project" : "matthewhu.com",
+  },
+
+  // OnlineSpotify
+  {
+  "projectId" : 2,
+  "client" : "Personal",
+  "type" : ["Web", "Design", "developement", "Creative Direction"],
+  "year" : 2019,
+  "project" : "matthewhu.com",
+  },
+
+  // Spotter
+  {
+    "projectId" : 3,
+  "client" : "Personal",
+  "type" : ["Web", "Design", "developement", "Creative Direction"],
+  "year" : 2019,
+  "project" : "matthewhu.lhjklhjkhjkhkjhjkhjkhjkhjkhjkhjkhjkhjkhjkcom",
+  },
 ]
-function ProjectList(data) {
-  
-  /* 
-  We want to map out data for each project:
-  <div>
-  <k
-  </div>
-*/ 
 
-const projectListElements = data.spots.map((spot) => {
+function ProjectList(props) {
+
+
+const projectListElements = myOwnData.map((projectObject) => {
   return (
-    <Spot
-      key={spot.id}
-      spotInfo={spot}
-      chooseTrack={props.chooseTrack}
-      setPlay={props.setPlay}
+    <ProjectObject 
+      key={projectObject.projectId}
+      client={projectObject.client}
+      type={projectObject.type}
+      year={projectObject.year}
+      project={projectObject.project}
     />
   );
-})
-: null;
+}) 
 
-return <div className="spotList">{spotListElements}</div>;
+
+return (
+  <div>
+    {projectListElements}
+  </div>
+  );
 }
 
 export default ProjectList

@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectList from './ProjectList/ProjectList'
 
 /*
 See homepage design
@@ -21,7 +22,7 @@ function Home() {
     <div> {/* Aesthetic div?? */} </div>
 
     <div> {/* ProjectList component */} 
-    <p></p>
+    <ProjectList />
     </div>
   </>
    

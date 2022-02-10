@@ -46,8 +46,6 @@ const projectListElements = myOwnData.map((projectObject) => {
     />
   );
 }) 
-
-
 return (
   <div>
     <ProjectObjectHeader />

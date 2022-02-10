@@ -2,7 +2,7 @@ import React from 'react'
 
 function NavWedge() {
   return (
-    <div>NavWedge</div>
+    <div className="NavWedge">NavWedgeasdasdasdasd</div>
   )
 }
 

@@ -3,12 +3,10 @@ import RightPanelBase from "./components/RightPanelBase/RightPanelBase";
 
 
 function App() {
-  return <> 
-    <div className="app">
+  return <div className="app">
       <LeftPanelBase />
       <RightPanelBase />
-    </div>
-  </>
+  </div>
 }
 
 export default App;

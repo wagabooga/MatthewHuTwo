@@ -1,18 +1,25 @@
+/* 
+import './styles/App.css'; 
+*/
 
-/* main container is  */
 .app {
   min-height: 100vh;
   width: 100%;
   overflow: hidden;
   background: rgba(38, 189, 30, 0.2);
 }
-/* .main_container {
+
+.RightPanelBase {
   min-height: 100vh;
   width: 100%;
   overflow: hidden;
   background: rgba(38, 189, 30, 0.2);
-} */
+}
 
-/* .NavWedge {
 
-} */
+.LeftPanelBase {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: rgba(4, 59, 177, 0.687);
+}

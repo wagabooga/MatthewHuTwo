@@ -1,7 +1,7 @@
 import React from 'react'
 
 function LeftPanelBase() {
-  return <div className="leftPanelBase">
+  return <div className="LeftPanelBase">
     I am left       
   </div>
 }

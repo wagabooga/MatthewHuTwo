@@ -1,10 +1,10 @@
 import LeftPanelBase from "./components/LeftPanelBase/LeftPanelBase";
-import RightPanelBase from "./components/RightPanelBase/RightPanel";
+import RightPanelBase from "./components/RightPanelBase/RightPanelBase";
 
 
 function App() {
   return <> 
-    <div className="main_container">
+    <div className="app">
       <LeftPanelBase />
       <RightPanelBase />
     </div>

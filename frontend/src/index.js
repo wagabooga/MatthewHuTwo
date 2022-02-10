@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import './App.css';
+import './styles/App.css';
 
 
 ReactDOM.render(

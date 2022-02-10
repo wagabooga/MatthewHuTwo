@@ -3,23 +3,21 @@ import './styles/App.css';
 */
 
 .app {
-  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   width: 100%;
-  overflow: hidden;
-  background: rgba(38, 189, 30, 0.2);
-}
-
-.RightPanelBase {
   min-height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  background: rgba(38, 189, 30, 0.2);
+  background: rgba(51, 212, 86, 0.687);
 }
 
 
 .LeftPanelBase {
-  min-height: 100vh;
-  width: 100%;
-  overflow: hidden;
   background: rgba(4, 59, 177, 0.687);
+  
+}
+
+.RightPanelBase {
+  background: rgba(157, 58, 73, 0.687);
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
 function ProjectObjectHeader() {
-  return <div>
+  return <div className="ProjectObjectHeader">
 
       <h1>CLIENT</h1>
       <h1>TYPE</h1>

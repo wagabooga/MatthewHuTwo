@@ -1,14 +1,12 @@
 import React from 'react'
 
 function ProjectObject( {client, type, year, project} ) {
-  return (
-    <div>
+  return <div className="ProjectObject">
       <ul>{client}</ul>
       <ul>{type}</ul>
       <ul>{year}</ul>
       <ul>{project}</ul>
-    </div>
-  )
+  </div>
 }
 
 export default ProjectObject

@@ -7,18 +7,17 @@ import App from './App';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import './App.css';
-import Miscellaneous from './components/RightPanel/Misc/Miscellaneous';
-import RightPanel from './components/RightPanel/RightPanel';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <App />
-        <Routes>
-        <Route path="/" element={ <RightPanel /> } />
-        <Route path="/Misc" element={ <Miscellaneous /> } />
 
+        <Routes>
+          {/* App is the Whole Screen (root) */}
+        <Route path="/" element={ <App /> } />
         </Routes>
+
       </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

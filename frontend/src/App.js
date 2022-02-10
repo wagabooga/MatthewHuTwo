@@ -1,12 +1,14 @@
-
+import LeftPanelBase from "./components/LeftPanelBase/LeftPanelBase";
+import RightPanelBase from "./components/RightPanelBase/RightPanel";
 
 
 function App() {
-  return (
+  return <> 
     <div className="main_container">
-      I AM MAIN CONTAINER NOW HAHAHAHAHAH LOL
+      <LeftPanelBase />
+      <RightPanelBase />
     </div>
-  );
+  </>
 }
 
 export default App;

@@ -33,25 +33,19 @@ let myOwnData = [
 ]
 
 function ProjectList() {
-
-
-const projectListElements = myOwnData.map((projectObject) => {
-  return (
-    <ProjectObject 
-      key={projectObject.projectId}
-      client={projectObject.client}
-      type={projectObject.type}
-      year={projectObject.year}
-      project={projectObject.project}
-    />
-  );
-}) 
-return (
-  <div>
-    <ProjectObjectHeader />
-    {projectListElements}
-  </div>
-  );
+  const projectListElements = myOwnData.map((projectObject) => {
+    return <ProjectObject 
+        key={projectObject.projectId}
+        client={projectObject.client}
+        type={projectObject.type}
+        year={projectObject.year}
+        project={projectObject.project}
+      />
+  }) 
+  return <div className="ProjectList">
+      <ProjectObjectHeader />
+      {projectListElements}
+    </div>
 }
 
 export default ProjectList

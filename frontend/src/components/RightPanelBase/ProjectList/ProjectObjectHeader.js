@@ -3,10 +3,10 @@ import React from 'react'
 function ProjectObjectHeader() {
   return <div className="ProjectObjectHeader">
 
-      <h1>CLIENT</h1>
+      {/* <h1>CLIENT</h1>
       <h1>TYPE</h1>
       <h1>YEAR</h1>
-      <h1>PROJECT</h1>
+      <h1>PROJECT</h1> */}
       
   </div>
 }

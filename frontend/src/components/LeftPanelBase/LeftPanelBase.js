@@ -1,8 +1,10 @@
 import React from 'react'
+import Hanabar from './Hanabar/Hanabar'
 
 function LeftPanelBase() {
   return <div className="LeftPanelBase">
-    I am left       
+    <Hanabar />
+       
   </div>
 }
 

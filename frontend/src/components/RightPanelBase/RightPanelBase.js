@@ -8,7 +8,6 @@ NavWedge will need to be sized 1/3rd of screen
 
 function RightPanelBase() {
   return <div className="RightPanelBase">
-    asd
       <ProjectList />
   </div>
 }

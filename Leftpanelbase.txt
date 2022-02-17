@@ -1,0 +1,11 @@
+LeftPanelBase:
+
+	Hana bar
+	Contact Bar
+	
+	AnotherBase
+	Link to Page
+	Link to Page
+	Link to Page
+	
+	FooterBar

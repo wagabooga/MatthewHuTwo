@@ -1,14 +1,14 @@
 import React from 'react'
-import ProjectList from './ProjectList/ProjectList'
 
 import '../../styles/App.css'
+import WorkIndex from './WorkIndex/WorkIndex';
 /*
-
+Right now I am always rendering assuming we are on /
 */
 
 function RightPanelBase() {
   return <div className="RightPanelBase">
-      <ProjectList />
+    <WorkIndex />
   </div>
 }
 

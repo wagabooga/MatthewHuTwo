@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectObject from './ProjectObject';
-import ProjectObjectHeader from './ProjectObjectHeader';
+
 
 
 let myOwnData = [
@@ -43,7 +43,6 @@ function ProjectList() {
       />
   }) 
   return <div className="ProjectList">
-      <ProjectObjectHeader />
       {projectListElements}
     </div>
 }

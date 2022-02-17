@@ -14,14 +14,12 @@ import './styles/App.css';
 
 
 .LeftPanelBase {
+  flex-direction: row;
   width: 30%;
   min-height: 100vh;
   background: rgba(0, 102, 102);
   margin-right: 1px;
-  padding-top: 5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 0;
-  padding-right: 1.5rem;
+
 }
 
 .RightPanelBase {
@@ -29,9 +27,9 @@ import './styles/App.css';
   min-height: 100vh;
   background: rgba(0, 102, 102);
   margin-left: 1px;
-  padding-top: 5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  padding-right: 0rem;
+}
 
+.Hanabar {
+  border: 2px solid black
+  
 }

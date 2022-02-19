@@ -1,14 +1,17 @@
 import React from 'react'
 
 function ProjectObjectTableHeader() {
-  return <div className="ProjectObjectTableHeader">
+  return <ul className="ProjectObjectTableHeader">
+    
+    
 
-      <h1>CLIENT</h1>
-      <h1>TYPE</h1>
-      <h1>YEAR</h1>
-      <h1>PROJECT</h1>
+      <li className="tileH">CLIENT</li>
+      <li className="tileH">TYPE</li> 
+      <li className="tileH">YEAR</li>
+      <li className="tileH">PROJECT</li>
+
       
-  </div>
+  </ul>
 }
 
 export default ProjectObjectTableHeader

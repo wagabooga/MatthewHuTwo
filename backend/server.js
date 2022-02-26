@@ -1,5 +1,5 @@
 // ------------------------- require -------------------------
-// require("dotenv").config();
+require("dotenv").config();
 const express = require('express')
 // ------------------------- Web server config -------------------------
 const app = express()
@@ -7,13 +7,13 @@ const port = process.env.PORT || 8000
 
 
 // ------------------------- db config -------------------------
-// const { Pool } = require("pg");
-// const dbParams = require("./lib/db.js");
-// const db = new Pool(dbParams);
+const { Pool } = require("pg");
+const dbParams = require("./lib/db.js");
+const db = new Pool(dbParams);
 
-// db.connect(() => {
-//   console.log("Connected to database")
-// });
+db.connect(() => {
+  console.log("Connected to Database")
+});
 
 
 app.get('/', (req, res) => {
